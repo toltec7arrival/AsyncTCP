@@ -38,7 +38,7 @@ extern "C" {
 
 //If stack size is not defined, then defaule stack size is 8192*2
 #ifndef CONFIG_ASYNC_TCP_STACK_SIZE
-#define CONFIG_ASYNC_TCP_STACK_SIZE 8192*2
+#define CONFIG_ASYNC_TCP_STACK_SIZE 8192
 #endif
 
 class AsyncClient;
