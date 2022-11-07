@@ -36,9 +36,9 @@ extern "C" {
 #define CONFIG_ASYNC_TCP_USE_WDT 1 //if enabled, adds between 33us and 200us per event
 #endif
 
-//If stack size is not defined, then defaule stack size is 8192*2
+//If stack size is not defined, then defaule stack size is 6144
 #ifndef CONFIG_ASYNC_TCP_STACK_SIZE
-#define CONFIG_ASYNC_TCP_STACK_SIZE 8192
+#define CONFIG_ASYNC_TCP_STACK_SIZE 6144
 #endif
 
 class AsyncClient;
